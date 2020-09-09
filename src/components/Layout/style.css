@@ -1,0 +1,98 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+    margin-left: 20px;
+    margin-right: 20px;
+    color: black;
+    background-color: #67b502;
+}
+
+.headerMenu a{
+    display: inline-block;
+    margin: 0 10px;
+    text-decoration: none;
+    color: #565673;
+    font-size: 12px;
+    letter-spacing: 1.2px;
+}
+.headerMenu a:hover{
+    color: #5f9ea0;
+}
+.logo{
+    text-align: center;
+}
+.logo a{
+    font-family: 'Dancing Script', cursive;
+    font-size: 50px;
+    text-decoration: none;
+    color: #333;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    background-color: #67b502;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.navbar ul{
+    margin: 0;
+    padding: 0;
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+}
+.navbar ul li a{
+    text-decoration: none;
+    display: block;
+    font-size: 20px;
+    text-transform: capitalize;
+    font-weight: 400;
+    color: #565673;
+    padding: 0 10px;
+}
+.search form{
+    display: flex;
+    margin: 0 10px;
+}
+
+.searchInput{
+    border: 0;
+    width: 0;
+    transition: width 0.1s ease-in;
+}
+
+.searchInput.active{
+    width: 150px;
+}
+
+.searchInput:focus{
+    outline: none;
+}
+
+.searchIcon{
+    cursor: pointer;
+}
+.logo2{
+    text-align: center;
+}
+.logo2 a{
+    font-family: 'Dancing Script', cursive;
+    font-size: 30px;
+    text-decoration: none;
+    color: #333;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.center{
+    text-align: center;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 100%;
+  }
